@@ -1,0 +1,22 @@
+
+.transactions-container {
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px black;
+}
+
+.category-spent-amount {
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px black;
+}
+
+.category-spent-amount-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}

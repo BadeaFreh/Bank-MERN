@@ -1,0 +1,40 @@
+
+.transaction-container {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.transaction-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.transaction-amount {
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.transaction-vendor, .transaction-category {
+    margin: 0 auto;
+}
+
+.delete-btn-container {
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+}

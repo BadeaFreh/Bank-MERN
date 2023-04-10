@@ -1,0 +1,32 @@
+
+.operations-container {
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px black;
+}
+
+.operations-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.transaction-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.operations-form input {
+    width: 70%;
+}
+
+.operation-buttons-wrapper button{
+    margin: 10px;
+}

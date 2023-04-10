@@ -1,0 +1,17 @@
+@import './Navbar.css';
+@import './Transactions.css';
+@import './TransactionItem.css';
+@import './Breakdown.css';
+@import './Operations.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cardo', serif;
+    background-color: rgb(41, 39, 39);
+    color: rgb(82, 36, 36);
+}
